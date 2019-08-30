@@ -6,7 +6,7 @@ public class fallThrough : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Shootable"), LayerMask.NameToLayer("Shootable"));
+        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("ShootableEnemy"), LayerMask.NameToLayer("ShootableEnemy"));
 	}
 	
 	// Update is called once per frame

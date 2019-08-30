@@ -24,7 +24,7 @@ public class rocketHit : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Shootable"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("ShootableEnemy"))
         {
             myPC.removeForce();
             Instantiate(explosionEffect, transform.position, transform.rotation);
@@ -39,7 +39,7 @@ public class rocketHit : MonoBehaviour {
     }
     void OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Shootable"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("ShootableEnemy"))
         {
             myPC.removeForce();
             Instantiate(explosionEffect, transform.position, transform.rotation);
