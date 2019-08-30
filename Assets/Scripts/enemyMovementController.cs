@@ -41,6 +41,7 @@ public class enemyMovementController : MonoBehaviour {
                 flipFacing();
             } else if (!facingRight && other.transform.position.x > transform.position.x) {
                 flipFacing();
+                
             }
             canFlip = false;
             charging = true;
