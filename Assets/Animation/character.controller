@@ -88,9 +88,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0.004921403
   m_TransitionOffset: 0
-  m_ExitTime: 0.75
+  m_ExitTime: 0.75000006
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -138,8 +138,8 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.08444782
-  m_TransitionOffset: 0.0115501555
+  m_TransitionDuration: 0.013016008
+  m_TransitionOffset: 0.011550151
   m_ExitTime: 0.06808504
   m_HasExitTime: 0
   m_HasFixedDuration: 1
@@ -163,9 +163,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0.0018641949
   m_TransitionOffset: 0
-  m_ExitTime: 0.75
+  m_ExitTime: 0.04043627
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -185,9 +185,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.025593156
+  m_TransitionDuration: 0.030253386
   m_TransitionOffset: 0
-  m_ExitTime: 0.00000005174406
+  m_ExitTime: 0.0000035137966
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -201,7 +201,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: playerFall
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -227,7 +227,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: playerRun
-  m_Speed: 0.5
+  m_Speed: 0.6
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101598599437920922}
@@ -280,7 +280,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: playerLand
-  m_Speed: 1
+  m_Speed: 5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101986107844279622}
@@ -376,7 +376,7 @@ AnimatorStateMachine:
     m_Position: {x: 240, y: 192, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102486700267425948}
-    m_Position: {x: 144, y: 72, z: 0}
+    m_Position: {x: 140, y: 70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102492936532718550}
     m_Position: {x: -84, y: -12, z: 0}
