@@ -1,16 +1,30 @@
 fileFormatVersion: 2
 guid: 04cf641ff1bd05743a4bec9d640a83ff
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: simpleCreatureSpriteSheet_0
-    21300002: simpleCreatureSpriteSheet_1
-    21300004: simpleCreatureSpriteSheet_2
-    21300006: simpleCreatureSpriteSheet_3
-    21300008: simpleCreatureSpriteSheet_4
-    21300010: simpleCreatureSpriteSheet_5
-    21300012: simpleCreatureSpriteSheet_6
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: simpleCreatureSpriteSheet_0
+  - first:
+      213: 21300002
+    second: simpleCreatureSpriteSheet_1
+  - first:
+      213: 21300004
+    second: simpleCreatureSpriteSheet_2
+  - first:
+      213: 21300006
+    second: simpleCreatureSpriteSheet_3
+  - first:
+      213: 21300008
+    second: simpleCreatureSpriteSheet_4
+  - first:
+      213: 21300010
+    second: simpleCreatureSpriteSheet_5
+  - first:
+      213: 21300012
+    second: simpleCreatureSpriteSheet_6
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -28,6 +42,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -38,7 +54,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -62,8 +78,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,7 +91,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -85,6 +103,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -104,6 +123,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f4953663b674ab4439c7e155c8c9819d
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -124,6 +144,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d0b90b715092bba40bc12d8d51b0d159
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -144,6 +165,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ca5a6d47b8f59b447bb9cd33c9c85aeb
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -164,6 +186,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8ef6825b8945f7240b02710416bd921a
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -184,6 +207,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5ea86b1a807fbce4d8dc34316776a5d1
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -204,6 +228,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c5293881a136a04408c03835c9767bf4
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -224,6 +249,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ad16096977437b944a30aa039ffdf049
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -232,11 +258,15 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 3b40b2a058570d84c82284597aeca35e
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -15,6 +15,7 @@ public class restartGame : MonoBehaviour {
     }
 
     // Update is called once per frame
+    [System.Obsolete]
     void Update() {
         if (restartNow && resetTime <= Time.time) {
             Application.LoadLevel(Application.loadedLevel);
