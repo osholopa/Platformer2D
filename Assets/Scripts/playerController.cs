@@ -39,10 +39,12 @@ public class playerController : MonoBehaviour {
             //Jump
             myRB.AddForce(new Vector2(0, jumpHeight));
         }
+        //Desktop shoot
         if (SystemInfo.deviceType != DeviceType.Handheld) {
             if (Input.GetAxisRaw("Fire1") > 0) fireRocket();
         }
-        if (Input.touchCount > 0 && SystemInfo.deviceType == DeviceType.Handheld) {
+        //Mobile shoot
+        if (Input.touchCount > 0) {
             var touch = Input.touches[0];
             if (touch.position.x > (0.75*Screen.width) && touch.position.y < (0.25*Screen.height)) {
                 fireRocket();
@@ -58,7 +60,7 @@ public class playerController : MonoBehaviour {
 
         myAnim.SetFloat("verticalSpeed", myRB.velocity.y);
 
-
+        //Desktop movement
         if (SystemInfo.deviceType == DeviceType.Desktop) {
             float move = Input.GetAxis("Horizontal");
             myAnim.SetFloat("speed", Mathf.Abs(move));
@@ -93,6 +95,7 @@ public class playerController : MonoBehaviour {
         }
     }
 
+    //Mobile movement
     void swipeMoveCheck() {
 
         if (Input.touchCount == 1) {
@@ -122,6 +125,7 @@ public class playerController : MonoBehaviour {
         }
     }
 
+    //Mobile jump
     void swipeJumpCheck() {
 
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
@@ -131,7 +135,7 @@ public class playerController : MonoBehaviour {
             endTouchPosition = Input.GetTouch(0).position;
             if (endTouchPosition.y > startTouchPosition.y) {
 
-                myRB.AddForce(new Vector2(0, jumpHeight * 4));//Jump mobile
+                myRB.AddForce(new Vector2(0, jumpHeight * 3));
                 myAnim.SetBool("isGrounded", false);
             }
         }
