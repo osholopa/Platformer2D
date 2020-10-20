@@ -100,7 +100,7 @@ public class playerController : MonoBehaviour {
 
         if (Input.touchCount == 1) {
             var touch = Input.touches[0];
-            if (touch.position.x < Screen.width / 3 && touch.position.y < Screen.height / 2) {
+            if (touch.position.x < Screen.width / 4 && touch.position.y < Screen.height / 2) {
 
                 if (facingRight) {
                     flip();
@@ -109,7 +109,7 @@ public class playerController : MonoBehaviour {
                 myAnim.SetFloat("speed", Mathf.Abs(1));
 
             }
-            if (touch.position.x > Screen.width / 3 && touch.position.x < 0.75*Screen.width && touch.position.y < Screen.height / 2) {
+            if (touch.position.x > Screen.width / 4 && touch.position.x < 0.5*Screen.width && touch.position.y < Screen.height / 2) {
 
                 if (!facingRight) {
                     flip();
